@@ -92,9 +92,9 @@ function createK5Notification(title, message, options, pDuration) {
 
   options && options.italicTitle && (titleElement.style.fontStyle = 'italic')
 
-  //Showing notification
-  let calculatedMargin
   //Calculating left to right and vica versa
+  let calculatedMargin
+
   if (userSettings.fromRightToLeft) {
     calculatedMargin = 420 + window.innerWidth - userSettings.left
   } else {
@@ -117,7 +117,6 @@ function createK5Notification(title, message, options, pDuration) {
   rootElement.insertBefore(notifElement, rootElement.firstChild)
 
   // Hiding notification
-
   let duration = pDuration
     ? pDuration
     : (options && options.duration) ?? defaults.duration
