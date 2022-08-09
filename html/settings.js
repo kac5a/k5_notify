@@ -97,7 +97,6 @@ function initClickHandlers() {
 
 function saveSettings(settings) {
   localStorage.setItem('k5NotifySettings', JSON.stringify(settings))
-  console.log('asd')
   $.post(
     'http://k5_notify/action',
     JSON.stringify({

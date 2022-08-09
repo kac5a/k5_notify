@@ -42,7 +42,6 @@ end
 
 
 RegisterNUICallback("action", function(data, cb)
-  print(json.encode(data))
 	if data.action == "close" then
 		closeSettings()
   end
