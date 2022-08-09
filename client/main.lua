@@ -47,6 +47,11 @@ RegisterNUICallback("action", function(data, cb)
   end
 end)
 
+-- You can remove these commands.
+-- These are only examples, but
+-- they show up in the chat
+-- suggestions.
+
 RegisterCommand('success', function()
   notify('K5 Notify', 'This is a test notification', 'success', 5000)
 end)

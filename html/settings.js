@@ -1,3 +1,8 @@
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// DO NOT TOUCH THIS FILE,
+// UNLESS YOU KNOW WHAT YOU'RE DOING
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 const defaultSettings = {
   top: 0,
   left: 0,

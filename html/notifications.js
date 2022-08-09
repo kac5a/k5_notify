@@ -1,3 +1,7 @@
+// You can add or remove any notification
+// type from here. Make sure you use the
+// same name as the one in the brackets
+
 const k5Notifications = {
   ['error']: {
     background: 'rgba(173, 38, 38, 0.9)',
