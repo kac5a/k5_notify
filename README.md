@@ -12,6 +12,12 @@ This is a **FREE** and **open** Fivem script that lets you create multiple style
 
 
 Watch the demo here: [YouTube](https://www.youtube.com/watch?v=ld_g5iTmuuQ)
+
+
+## Help
+
+
+If you need any help, you can check out my [Discord](https://discord.com/invite/WmANgpdrgZ)
   
 
 # Download & Installation
