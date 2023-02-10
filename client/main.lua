@@ -5,7 +5,7 @@ end)
 
 RegisterNetEvent("k5_notify:notify")
 AddEventHandler("k5_notify:notify", function(title, text, type, duration)
-  notify(title, text, type)
+  notify(title, text, type, duration)
 end)
 
 function notify(title, text, type, duration)
